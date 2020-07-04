@@ -2,7 +2,7 @@ package com.gui;
 
 import java.util.Objects;
 
-public class Person {
+public class Person implements Comparable {
     private String name;
     private Integer age;
 
@@ -24,5 +24,25 @@ public class Person {
     public int hashCode() {
 
         return Objects.hash(name, age);
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        if(o instanceof Person){
+            Person p = (Person)o;
+            Integer result = this.name.compareTo(p.name);
+            System.out.println(result);
+            return  result;
+        }else{
+            throw new RuntimeException("错误");
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
     }
 }
