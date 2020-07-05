@@ -11,6 +11,22 @@ public class Person implements Comparable {
         this.age = age;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -31,7 +47,6 @@ public class Person implements Comparable {
         if(o instanceof Person){
             Person p = (Person)o;
             Integer result = this.name.compareTo(p.name);
-            System.out.println(result);
             return  result;
         }else{
             throw new RuntimeException("错误");
