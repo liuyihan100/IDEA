@@ -1,0 +1,14 @@
+person:
+  name: 刘毅晗
+  age: 18
+  hello: hi
+  dog:
+    name: potato
+    age: 3
+  hobbies:
+    - code
+    - money${person.hello:hello}
+    - girl${random.int}
+  map:
+    handsome: true
+    cute: true
