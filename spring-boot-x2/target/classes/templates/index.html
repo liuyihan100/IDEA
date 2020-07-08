@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+    <input type="text" th:placeholder="#{login.username}"/><br/>
+    <input type="password" th:placeholder="#{login.password}"/><br/>
+    <a th:href="@{/index.html(l='zh_CN')}">中文</a>
+    <a th:href="@{/index.html(l='en_US')}">English</a>
+</body>
+</html>
