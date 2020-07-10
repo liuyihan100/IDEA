@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mabatis.org//DTD Mapper"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gui.mapper.EmployeeMapper">
+    
+    <resultMap id="map1" type="com.gui.bean.Employee">
+        <id column="employee_id" property="employeeId"/>
+        <result column="last_name" property="lastName"/>
+        <result column="salary" property="salary"/>
+        <association property="department" javaType="com.gui.bean.Department">
+            <id column="department_id" property="departmentId"/>
+            <result column="department_name" property="departmentName"/>
+        </association>
+    </resultMap>
+
+    <select id="getAll" resultMap="map1">
+      select * from employees left outer join departments on employees.department_id = departments.department_id
+    </select>
+
+</mapper>
