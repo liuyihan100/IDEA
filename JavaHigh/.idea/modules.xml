@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaHigh.iml" filepath="$PROJECT_DIR$/JavaHigh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/file-module/file-module.iml" filepath="$PROJECT_DIR$/file-module/file-module.iml" />
     </modules>
   </component>
 </project>
