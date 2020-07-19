@@ -1,0 +1,14 @@
+spring:
+  redis:
+    host: 192.168.22.128
+  datasource:
+    username: root
+    password: liuyihan
+    url: jdbc:mysql://localhost/myemployees?serverTimezone=UTC
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+logging:
+  level:
+    com:
+      gui: debug

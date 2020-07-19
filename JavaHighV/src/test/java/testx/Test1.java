@@ -1,10 +1,8 @@
 package testx;
 
 import org.junit.Test;
-import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+
+import java.io.*;
 
 public class Test1 {
 
@@ -56,5 +54,8 @@ public class Test1 {
             if(writer != null)
                 writer.close();
         }
+
+        System.out.println();
     }
+
 }
