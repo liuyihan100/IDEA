@@ -1,0 +1,7 @@
+dubbo:
+  application:
+    name: zookeeper
+  registry:
+    address: zookeeper://192.168.22.128:2181
+  scan:
+    base-packages: com.gui.zookeeper.service

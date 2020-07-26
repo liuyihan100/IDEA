@@ -2,13 +2,17 @@ package com.gui;
 
 import java.util.Objects;
 
-public class Person implements Comparable {
+public class Person {
     private String name;
     private Integer age;
 
     public Person(String name, Integer age) {
         this.name = name;
         this.age = age;
+    }
+
+    public Person() {
+        super();
     }
 
     public String getName() {
@@ -43,21 +47,14 @@ public class Person implements Comparable {
     }
 
     @Override
-    public int compareTo(Object o) {
-        if(o instanceof Person){
-            Person p = (Person)o;
-            Integer result = this.name.compareTo(p.name);
-            return  result;
-        }else{
-            throw new RuntimeException("错误");
-        }
-    }
-
-    @Override
     public String toString() {
         return "Person{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
+    }
+
+    private String play(){
+        return "hello, world";
     }
 }

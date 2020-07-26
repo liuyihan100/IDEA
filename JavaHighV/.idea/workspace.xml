@@ -16,8 +16,8 @@
       <file leaf-file-name="Test1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testx/Test1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+            <state relative-caret-position="996">
+              <caret line="128" column="33" selection-start-line="128" selection-start-column="33" selection-end-line="128" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,9 +74,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,11 +111,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -135,11 +136,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test1.play2">
+  <component name="RunManager" selected="JUnit.Test1.play6">
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testx.Test1" />
+      <module name="JavaHighV" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Test1.play" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test1.play3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaHighV" />
       <extension name="coverage">
         <pattern>
@@ -151,7 +163,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="testx" />
       <option name="MAIN_CLASS_NAME" value="testx.Test1" />
-      <option name="METHOD_NAME" value="play" />
+      <option name="METHOD_NAME" value="play3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -162,7 +174,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Test1.play2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test1.play4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaHighV" />
       <extension name="coverage">
         <pattern>
@@ -174,7 +186,53 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="testx" />
       <option name="MAIN_CLASS_NAME" value="testx.Test1" />
-      <option name="METHOD_NAME" value="play2" />
+      <option name="METHOD_NAME" value="play4" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Test1.play5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaHighV" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="testx" />
+      <option name="MAIN_CLASS_NAME" value="testx.Test1" />
+      <option name="METHOD_NAME" value="play5" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Test1.play6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaHighV" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="testx" />
+      <option name="MAIN_CLASS_NAME" value="testx.Test1" />
+      <option name="METHOD_NAME" value="play6" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -224,13 +282,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Test1.play" />
-      <item itemvalue="JUnit.Test1.play2" />
+      <item itemvalue="JUnit.Test1.play3" />
+      <item itemvalue="Application.Test1" />
+      <item itemvalue="JUnit.Test1.play4" />
+      <item itemvalue="JUnit.Test1.play5" />
+      <item itemvalue="JUnit.Test1.play6" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test1.play2" />
-        <item itemvalue="JUnit.Test1.play" />
+        <item itemvalue="JUnit.Test1.play6" />
+        <item itemvalue="JUnit.Test1.play5" />
+        <item itemvalue="JUnit.Test1.play4" />
+        <item itemvalue="JUnit.Test1.play3" />
+        <item itemvalue="Application.Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -247,28 +311,13 @@
       <workItem from="1594727195902" duration="6462000" />
       <workItem from="1594858988202" duration="3523000" />
       <workItem from="1594962305976" duration="897000" />
+      <workItem from="1595425783151" duration="2113000" />
+      <workItem from="1595462550781" duration="2377000" />
+      <workItem from="1595655637163" duration="1302000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test1_play - 2020.07.14 at 20h 03m 58s.xml">
-      <configuration name="Test1.play" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test1_play - 2020.07.14 at 20h 46m 35s.xml">
-      <configuration name="Test1.play" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test1_play - 2020.07.14 at 20h 51m 24s.xml">
-      <configuration name="Test1.play" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test1_play - 2020.07.14 at 20h 51m 51s.xml">
-      <configuration name="Test1.play" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test1_play2 - 2020.07.14 at 21h 13m 26s.xml">
-      <configuration name="Test1.play2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Test1_play2 - 2020.07.14 at 21h 15m 17s.xml">
-      <configuration name="Test1.play2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Test1_play2 - 2020.07.14 at 21h 16m 02s.xml">
       <configuration name="Test1.play2" configurationId="JUnit" />
     </history-entry>
@@ -281,9 +330,27 @@
     <history-entry file="Test1_play2 - 2020.07.16 at 08h 45m 08s.xml">
       <configuration name="Test1.play2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Test1_play3 - 2020.07.22 at 21h 50m 39s.xml">
+      <configuration name="Test1.play3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_play2 - 2020.07.22 at 21h 50m 43s.xml">
+      <configuration name="Test1.play2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_play3 - 2020.07.23 at 08h 24m 16s.xml">
+      <configuration name="Test1.play3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_play4 - 2020.07.23 at 08h 29m 24s.xml">
+      <configuration name="Test1.play4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_play5 - 2020.07.23 at 08h 32m 51s.xml">
+      <configuration name="Test1.play5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test1_play6 - 2020.07.25 at 14h 46m 15s.xml">
+      <configuration name="Test1.play6" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10882000" />
+    <option name="totallyTimeSpent" value="16674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -291,32 +358,32 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.4017094" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.06837607" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3903134" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3048433" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3048433" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13337801" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13739946" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.32171583" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.115384616" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,6 +393,36 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/testx/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2408">
+          <caret line="88" column="27" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testx/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2184">
+          <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testx/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1624">
+          <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testx/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1680">
@@ -375,6 +472,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-14/lib/src.zip!/java.base/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="702" column="9" lean-forward="true" selection-start-line="702" selection-start-column="9" selection-end-line="702" selection-end-column="9" />
+          <folding>
+            <element signature="e#31904#31905#0" expanded="true" />
+            <element signature="e#31929#31930#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-14/lib/src.zip!/java.base/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="2026" column="55" selection-start-line="2026" selection-start-column="44" selection-end-line="2026" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hellox.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -385,28 +500,32 @@
     <entry file="file://$PROJECT_DIR$/hello.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-14/lib/src.zip!/java.base/java/lang/System.java">
+    <entry file="file://$PROJECT_DIR$/int.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="1947" column="63" selection-start-line="1947" selection-start-column="56" selection-end-line="1947" selection-end-column="63" />
+        <state>
+          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-14/lib/src.zip!/java.base/java/io/PrintStream.java">
+    <entry file="jar://C:/Program Files/Java/jdk-14/lib/src.zip!/java.base/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="888" column="20" selection-start-line="888" selection-start-column="20" selection-end-line="888" selection-end-column="20" />
+        <state relative-caret-position="201">
+          <caret line="3701" column="12" selection-start-line="3701" selection-start-column="12" selection-end-line="3701" selection-end-column="12" />
+          <folding>
+            <element signature="e#146060#146061#0" expanded="true" />
+            <element signature="e#146117#146118#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testx/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+        <state relative-caret-position="996">
+          <caret line="128" column="33" selection-start-line="128" selection-start-column="33" selection-end-line="128" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
